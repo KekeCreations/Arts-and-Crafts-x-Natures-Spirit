@@ -3,6 +3,13 @@ plugins {
     id 'net.neoforged.moddev'
 }
 
+dependencies {
+    implementation("curse.maven:artsandcrafts-1034791:8041062")
+    implementation "curse.maven:jinxedlib-1203401:6332450"
+    implementation "curse.maven:natures-spirit-1044992:6962784"
+    implementation "curse.maven:terrablender-neoforge-940057:6054947"
+}
+
 neoForge {
     version = neoforge_version
     // Automatically enable neoforge AccessTransformers if the file exists
