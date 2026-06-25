@@ -13,6 +13,9 @@
     "entrypoints": {
         "main": [
             "com.kekecreations.arts_and_crafts_ns.FabricArtsAndCraftsNS"
+        ],
+        "fabric-datagen": [
+            "com.kekecreations.arts_and_crafts_ns.datagen.ACNSDataGenerator"
         ]
     },
     "mixins": [

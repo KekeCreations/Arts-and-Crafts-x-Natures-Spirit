@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:flower_pot"
+          "name": "arts_and_crafts:lime_flower_pot"
         }
       ],
       "rolls": 1.0
@@ -31,6 +31,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "arts_and_crafts_ns:blocks/lime_potted_sedge_grass"
+  ]
 }
