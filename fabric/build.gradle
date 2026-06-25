@@ -1,3 +1,5 @@
+import net.fabricmc.loom.configuration.ide.RunConfigSettings
+
 plugins {
     id 'multiloader-loader'
     id 'fabric-loom'
@@ -53,5 +55,10 @@ loom {
         }
     }
 }
+processResources {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
 
-sourceSets.main.resources { srcDir project(":common").file('src/main/generated/').getAbsolutePath() }
+sourceSets.main.resources {
+    srcDir project(":common").file('src/main/generated/').getAbsolutePath()
+}
