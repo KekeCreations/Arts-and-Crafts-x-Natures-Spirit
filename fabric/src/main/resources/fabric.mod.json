@@ -16,6 +16,9 @@
         ],
         "fabric-datagen": [
             "com.kekecreations.arts_and_crafts_ns.datagen.ACNSDataGenerator"
+        ],
+        "client": [
+            "com.kekecreations.arts_and_crafts_ns.FabricClientArtsAndCraftsNS"
         ]
     },
     "mixins": [

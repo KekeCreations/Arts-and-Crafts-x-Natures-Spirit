@@ -157,6 +157,10 @@ public class ACNSNeoForgeBlocks {
         return ORNATE_SUCCULENT_FLOWER_POTS.get(color).get();
     }
 
+    public static Block getDrowsySucculentFlowerPots(DyeColor color) {
+        return DROWSY_SUCCULENT_FLOWER_POTS.get(color).get();
+    }
+
     public static Block getAureateSucculentFlowerPots(DyeColor color) {
         return AUREATE_SUCCULENT_FLOWER_POTS.get(color).get();
     }

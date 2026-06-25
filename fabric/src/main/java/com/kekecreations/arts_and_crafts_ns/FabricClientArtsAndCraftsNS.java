@@ -1,4 +1,43 @@
 package com.kekecreations.arts_and_crafts_ns;
 
-public class FabricClientArtsAndCraftsNS {
+import com.kekecreations.arts_and_crafts_ns.core.registry.ACNSFabricBlocks;
+import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.world.item.DyeColor;
+
+@Environment(EnvType.CLIENT)
+public class FabricClientArtsAndCraftsNS implements ClientModInitializer {
+
+    @Override
+    public void onInitializeClient() {
+        registerBlockLayers();
+    }
+
+
+    public static void registerBlockLayers() {
+        for (DyeColor colour : DyeColor.values()) {
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getScorchedGrassFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getBeachGrassFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getSedgeGrassFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getFlaxenFernFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getOatGrassFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getMelicGrassFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getLushFernFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getFrigidGrassFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getGreenBearberriesFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getRedBearberriesFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getPurpleBearberriesFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getOrnateSucculentFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getDrowsySucculentFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getAureateSucculentFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getSageSucculentFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getFoamySucculentFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getImperialSucculentFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getRegalSucculentFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getShiitakeMushroomFlowerPots(colour), RenderType.cutout());
+        }
+    }
 }
