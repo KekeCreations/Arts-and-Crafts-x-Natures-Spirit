@@ -40,6 +40,44 @@ public class ACNSClientEvents {
             ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getImperialSucculentFlowerPots(colour), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getRegalSucculentFlowerPots(colour), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getShiitakeMushroomFlowerPots(colour), RenderType.cutout());
+
+            //ROUND 2
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getAnemoneFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getAspenSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getBlackIrisFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getBlueIrisFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getBlueWisteriaSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getBluebellFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getCedarSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getCypressSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getDwarfBlossomsFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getFirSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getGhafSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getHibiscusFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getJoshuaSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getLarchSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getMahoganySaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getMarigoldFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getOliveSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getOrangeMapleSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getPaloVerdeSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getPinkWisteriaSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getProteaFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getPurpleHeatherFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getPurpleWildflowerFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getPurpleWisteriaSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getRedHeatherFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getRedMapleSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getRedwoodSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getRubyBlossomsFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getSaxaulSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getSugiSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getTigerLilyFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getWhiteHeatherFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getWhiteWisteriaSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getWillowSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getYellowMapleSaplingFlowerPots(colour), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ACNSNeoForgeBlocks.getYellowWildflowerFlowerPots(colour), RenderType.cutout());
         }
     }
 }
