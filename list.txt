@@ -2,54 +2,54 @@ Potted Anemone DONE
 Potted Aspen Sapling  DONE
 Potted Aureate Succulent (done)
 Potted Beach Grass (Done)
-Potted Black Iris
-Potted Blue Iris
-Potted Blue Wisteria Sapling
-Potted Bluebell
-Potted Cedar Sapling
-Potted Cypress Sapling
+Potted Black Iris  DONE
+Potted Blue Iris   DONE
+Potted Blue Wisteria Sapling DONE
+Potted Bluebell  DONE
+Potted Cedar Sapling DONE
+Potted Cypress Sapling DONE
 Potted Drowsy Succulent (done)
-Potted Dwarf Blossoms
-Potted Fir Sapling
+Potted Dwarf Blossoms DONE
+Potted Fir Sapling DONE
 Potted Flaxen Fern (Done)
 Potted Foamy Succulent (Done)
 Potted Frigid Grass (Done)
-Potted Ghaf Sapling
+Potted Ghaf Sapling  DONE
 Potted Green Bearberries (Done)
-Potted Hibiscus
+Potted Hibiscus  DONE
 Potted Imperial Succulent (Done)
 Potted Joshua Sapling
 Potted Larch Sapling
 Potted Lush Fern (Done)
-Potted Mahogany Sapling
-Potted Marigold
+Potted Mahogany Sapling DONE
+Potted Marigold  DONE
 Potted Melic Grass (Done)
 Potted Oat Grass (done)
-Potted Olive Sapling
-Potted Orange Maple Sapling
+Potted Olive Sapling DONE
+Potted Orange Maple Sapling DONE
 Potted Ornate Succulent (done)
-Potted Palo Verde Sapling
-Potted Pink Wisteria Sapling
-Potted Protea
+Potted Palo Verde Sapling  DONE
+Potted Pink Wisteria Sapling  DONE
+Potted Protea DONE
 Potted Purple Bearberries (done)
-Potted Purple Heather
-Potted Purple Wildflower
-Potted Purple Wisteria Sapling
+Potted Purple Heather DONE
+Potted Purple Wildflower DONE
+Potted Purple Wisteria Sapling DONE
 Potted Red Bearberries (done)
-Potted Red Heather
-Potted Red Maple Sapling
-Potted Redwood Sapling
+Potted Red Heather DONE
+Potted Red Maple Sapling  DONE
+Potted Redwood Sapling  DONE
 Potted Regal Succulent (done)
-Potted Ruby Blossoms
+Potted Ruby Blossoms  DONE
 Potted Sage Succulent (done)
-Potted Saxaul Sapling
+Potted Saxaul Sapling DONE
 Potted Scorched Grass (done)
 Potted Sedge Grass (done)
 Potted Shiitake Mushroom (done)
-Potted Sugi Sapling
-Potted Tiger Lily
-Potted White Heather
-Potted White Wisteria Sapling
-Potted Willow Sapling
-Potted Yellow Maple Sapling
-Potted Yellow Wildflower
+Potted Sugi Sapling  DONE
+Potted Tiger Lily DONE
+Potted White Heather DONE
+Potted White Wisteria Sapling  DONE
+Potted Willow Sapling  DONE
+Potted Yellow Maple Sapling  DONE
+Potted Yellow Wildflower  DONE

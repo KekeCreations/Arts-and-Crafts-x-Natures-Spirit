@@ -1,0 +1,8 @@
+{
+  "parent": "natures_spirit:block/flower_pot_protea",
+  "textures": {
+    "flowerpot": "arts_and_crafts:block/light_blue_flower_pot",
+    "particle": "arts_and_crafts:block/light_blue_flower_pot",
+    "plant": "natures_spirit:block/protea_flower"
+  }
+}

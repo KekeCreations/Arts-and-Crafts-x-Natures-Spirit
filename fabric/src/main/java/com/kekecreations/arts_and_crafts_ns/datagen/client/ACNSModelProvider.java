@@ -88,6 +88,108 @@ public class ACNSModelProvider extends FabricModelProvider {
 
             this.createFlowerPot("natures_spirit",
                     ACNSFabricBlocks.getAspenSaplingFlowerPots(colour), "aspen_sapling", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getBlackIrisFlowerPots(colour), "black_iris", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getBlueIrisFlowerPots(colour), "blue_iris", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getBlueWisteriaSaplingFlowerPots(colour), "blue_wisteria_sapling", colour, generator);
+
+            this.createLargeFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getBluebellFlowerPots(colour), "bluebell", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getCedarSaplingFlowerPots(colour), "cedar_sapling", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getCypressSaplingFlowerPots(colour), "cypress_sapling", colour, generator);
+
+            this.createTallFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getDwarfBlossomsFlowerPots(colour), "dwarf_blossoms", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getFirSaplingFlowerPots(colour), "fir_sapling", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getGhafSaplingFlowerPots(colour), "ghaf_sapling", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getHibiscusFlowerPots(colour), "hibiscus", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getJoshuaSaplingFlowerPots(colour), "joshua_sapling", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getLarchSaplingFlowerPots(colour), "larch_sapling", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getMahoganySaplingFlowerPots(colour), "mahogany_sapling", colour, generator);
+
+            this.createLargeFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getMarigoldFlowerPots(colour), "marigold", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getOliveSaplingFlowerPots(colour), "olive_sapling", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getOrangeMapleSaplingFlowerPots(colour), "orange_maple_sapling", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getPaloVerdeSaplingFlowerPots(colour), "palo_verde_sapling", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getPinkWisteriaSaplingFlowerPots(colour), "pink_wisteria_sapling", colour, generator);
+
+            this.createProteaFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getProteaFlowerPots(colour), "protea_flower", colour, generator);
+
+            this.createLargeFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getPurpleHeatherFlowerPots(colour), "purple_heather", colour, generator);
+
+            this.createLargeFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getPurpleWildflowerFlowerPots(colour), "purple_wildflower", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getPurpleWisteriaSaplingFlowerPots(colour), "purple_wisteria_sapling", colour, generator);
+
+            this.createLargeFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getRedHeatherFlowerPots(colour), "red_heather", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getRedMapleSaplingFlowerPots(colour), "red_maple_sapling", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getRedwoodSaplingFlowerPots(colour), "redwood_sapling", colour, generator);
+
+            this.createLargeFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getRubyBlossomsFlowerPots(colour), "ruby_blossoms", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getSaxaulSaplingFlowerPots(colour), "saxaul_sapling", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getSugiSaplingFlowerPots(colour), "sugi_sapling", colour, generator);
+
+            this.createLargeFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getTigerLilyFlowerPots(colour), "tiger_lily", colour, generator);
+
+            this.createLargeFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getWhiteHeatherFlowerPots(colour), "white_heather", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getWhiteWisteriaSaplingFlowerPots(colour), "white_wisteria_sapling", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getWillowSaplingFlowerPots(colour), "willow_sapling", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getYellowMapleSaplingFlowerPots(colour), "yellow_maple_sapling", colour, generator);
+
+            this.createLargeFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getYellowWildflowerFlowerPots(colour), "yellow_wildflower", colour, generator);
         }
 
     }
@@ -119,6 +221,12 @@ public class ACNSModelProvider extends FabricModelProvider {
     public final void createTallFlowerPot(String modID, Block flowerPot, String plant, DyeColor colour, BlockModelGenerators blockModelGenerators) {
         TextureMapping textureMapping = ACNSTextureMapping.flowerPotTextureMappings(modID, plant, colour);
         ResourceLocation resourceLocation = ACNSModelTemplate.TALL_FLOWER_POT.create(flowerPot, textureMapping, blockModelGenerators.modelOutput);
+        blockModelGenerators.blockStateOutput.accept(BlockModelGenerators.createSimpleBlock(flowerPot, resourceLocation));
+    }
+
+    public final void createProteaFlowerPot(String modID, Block flowerPot, String plant, DyeColor colour, BlockModelGenerators blockModelGenerators) {
+        TextureMapping textureMapping = ACNSTextureMapping.flowerPotTextureMappings(modID, plant, colour);
+        ResourceLocation resourceLocation = ACNSModelTemplate.PROTEA_FLOWER_POT.create(flowerPot, textureMapping, blockModelGenerators.modelOutput);
         blockModelGenerators.blockStateOutput.accept(BlockModelGenerators.createSimpleBlock(flowerPot, resourceLocation));
     }
 }

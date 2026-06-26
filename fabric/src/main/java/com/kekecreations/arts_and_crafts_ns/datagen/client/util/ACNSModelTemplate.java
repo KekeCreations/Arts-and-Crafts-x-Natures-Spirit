@@ -14,6 +14,7 @@ public class ACNSModelTemplate {
     public static final ModelTemplate SUCCULENT_FLOWER_POT = createSucculentFlowerPot(TextureSlot.PARTICLE, ACNSTextureMapping.FLOWER_POT, TextureSlot.PLANT);
     public static final ModelTemplate LARGE_FLOWER_POT = createLargeFlowerPot(TextureSlot.PARTICLE, ACNSTextureMapping.FLOWER_POT, TextureSlot.PLANT);
     public static final ModelTemplate TALL_FLOWER_POT = createTallFlowerPot(TextureSlot.PARTICLE, ACNSTextureMapping.FLOWER_POT, TextureSlot.PLANT);
+    public static final ModelTemplate PROTEA_FLOWER_POT = createProteaFlowerPot(TextureSlot.PARTICLE, ACNSTextureMapping.FLOWER_POT, TextureSlot.PLANT);
 
 
     public static ModelTemplate createFlowerPot(TextureSlot... textureSlots) {
@@ -30,6 +31,10 @@ public class ACNSModelTemplate {
 
     public static ModelTemplate createTallFlowerPot(TextureSlot... textureSlots) {
         return new ModelTemplate((Optional.of(ResourceLocation.fromNamespaceAndPath("natures_spirit", "block/flower_pot_tall_cross"))), Optional.empty(), textureSlots);
+    }
+
+    public static ModelTemplate createProteaFlowerPot(TextureSlot... textureSlots) {
+        return new ModelTemplate((Optional.of(ResourceLocation.fromNamespaceAndPath("natures_spirit", "block/flower_pot_protea"))), Optional.empty(), textureSlots);
     }
 
     public static ModelTemplate createTintedFlowerPot(TextureSlot... textureSlots) {
