@@ -38,6 +38,45 @@ public class FabricClientArtsAndCraftsNS implements ClientModInitializer {
             BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getImperialSucculentFlowerPots(colour), RenderType.cutout());
             BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getRegalSucculentFlowerPots(colour), RenderType.cutout());
             BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getShiitakeMushroomFlowerPots(colour), RenderType.cutout());
+
+            //ROUND 2
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getAnemoneFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getAspenSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getBlackIrisFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getBlueIrisFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getBlueWisteriaSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getBluebellFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getCedarSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getCypressSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getDwarfBlossomsFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getFirSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getGhafSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getHibiscusFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getJoshuaSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getLarchSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getMahoganySaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getMarigoldFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getOliveSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getOrangeMapleSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getPaloVerdeSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getPinkWisteriaSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getProteaFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getPurpleHeatherFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getPurpleWildflowerFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getPurpleWisteriaSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getRedHeatherFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getRedMapleSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getRedwoodSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getRubyBlossomsFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getSaxaulSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getSugiSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getTigerLilyFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getWhiteHeatherFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getWhiteWisteriaSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getWillowSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getYellowMapleSaplingFlowerPots(colour), RenderType.cutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(ACNSFabricBlocks.getYellowWildflowerFlowerPots(colour), RenderType.cutout());
+
         }
     }
 }
