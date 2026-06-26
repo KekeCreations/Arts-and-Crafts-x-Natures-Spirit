@@ -1,0 +1,4 @@
+V1.0.0
+- Renames Nature Spirit's Chalk Blocks to Calcite
+- Renames Nature Spirit's Chalk Powder to Calcite Powder
+- Added dyed flower pot support for all plants added by Nature's Spirit
