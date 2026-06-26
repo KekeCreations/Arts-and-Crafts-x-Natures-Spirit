@@ -4,6 +4,7 @@ import com.kekecreations.arts_and_crafts_ns.Constants;
 import com.kekecreations.arts_and_crafts_ns.common.block.ACNSFlowerPotBlock;
 import com.kekecreations.jinxedlib.core.util.JinxedRegistryHelper;
 import net.hibiscus.naturespirit.registration.NSMiscBlocks;
+import net.hibiscus.naturespirit.registration.NSWoods;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -34,6 +35,44 @@ public class ACNSFabricBlocks {
     public static final HashMap<DyeColor, Supplier<Block>> IMPERIAL_SUCCULENT_FLOWER_POTS = new HashMap<>();
     public static final HashMap<DyeColor, Supplier<Block>> REGAL_SUCCULENT_FLOWER_POTS = new HashMap<>();
     public static final HashMap<DyeColor, Supplier<Block>> SHIITAKE_MUSHROOM_FLOWER_POTS = new HashMap<>();
+
+    //Round 2
+    public static final HashMap<DyeColor, Supplier<Block>> ANEMONE_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> ASPEN_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> BLACK_IRIS_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> BLUE_IRIS_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> BLUE_WISTERIA_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> BLUEBELL_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> CEDAR_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> CYPRESS_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> DWARF_BLOSSOMS_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> FIR_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> GHAF_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> HIBISCUS_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> JOSHUA_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> LARCH_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> MAHOGANY_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> MARIGOLD_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> OLIVE_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> ORANGE_MAPLE_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> PALO_VERDE_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> PINK_WISTERIA_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> PROTEA_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> PURPLE_HEATHER_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> PURPLE_WILDFLOWER_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> PURPLE_WISTERIA_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> RED_HEATHER_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> RED_MAPLE_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> REDWOOD_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> RUBY_BLOSSOMS_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> SAXAUL_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> SUGI_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> TIGER_LILY_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> WHITE_HEATHER_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> WHITE_WISTERIA_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> WILLOW_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> YELLOW_MAPLE_SAPLING_FLOWER_POTS = new HashMap<>();
+    public static final HashMap<DyeColor, Supplier<Block>> YELLOW_WILDFLOWER_FLOWER_POTS = new HashMap<>();
 
 
     static {
@@ -94,6 +133,116 @@ public class ACNSFabricBlocks {
 
             SHIITAKE_MUSHROOM_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_shiitake_mushroom",
                     () -> flowerPot(NSMiscBlocks.SHIITAKE_MUSHROOM, colour)));
+
+
+            //ROUND 2
+            ANEMONE_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_anemone",
+                    () -> flowerPot(NSMiscBlocks.ANEMONE.getFlowerBlock(), colour)));
+
+            ASPEN_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_aspen_sapling",
+                    () -> flowerPot(NSWoods.ASPEN.getSapling(), colour)));
+
+            BLACK_IRIS_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_black_iris",
+                    () -> flowerPot(NSMiscBlocks.BLACK_IRIS.getFlowerBlock(), colour)));
+
+            BLUE_IRIS_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_blue_iris",
+                    () -> flowerPot(NSMiscBlocks.BLUE_IRIS.getFlowerBlock(), colour)));
+
+            BLUE_WISTERIA_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_blue_wisteria_sapling",
+                    () -> flowerPot(NSWoods.WISTERIA.getBlueSapling(), colour)));
+
+            BLUEBELL_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_bluebell",
+                    () -> flowerPot(NSMiscBlocks.BLUEBELL.getFlowerBlock(), colour)));
+
+            CEDAR_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_cedar_sapling",
+                    () -> flowerPot(NSWoods.CEDAR.getSapling(), colour)));
+
+            CYPRESS_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_cypress_sapling",
+                    () -> flowerPot(NSWoods.CYPRESS.getSapling(), colour)));
+
+            DWARF_BLOSSOMS_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_dwarf_blossoms",
+                    () -> flowerPot(NSMiscBlocks.DWARF_BLOSSOMS.getFlowerBlock(), colour)));
+
+            FIR_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_fir_sapling",
+                    () -> flowerPot(NSWoods.FIR.getSapling(), colour)));
+
+            GHAF_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_ghaf_sapling",
+                    () -> flowerPot(NSWoods.GHAF.getSapling(), colour)));
+
+            HIBISCUS_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_hibiscus",
+                    () -> flowerPot(NSMiscBlocks.HIBISCUS.getFlowerBlock(), colour)));
+
+            JOSHUA_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_joshua_sapling",
+                    () -> flowerPot(NSWoods.JOSHUA.getSapling(), colour)));
+
+            LARCH_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_larch_sapling",
+                    () -> flowerPot(NSWoods.LARCH.getSapling(), colour)));
+
+            MAHOGANY_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_mahogany_sapling",
+                    () -> flowerPot(NSWoods.MAHOGANY.getSapling(), colour)));
+
+            MARIGOLD_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_marigold",
+                    () -> flowerPot(NSMiscBlocks.MARIGOLD.getFlowerBlock(), colour)));
+
+            OLIVE_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_olive_sapling",
+                    () -> flowerPot(NSWoods.OLIVE.getSapling(), colour)));
+
+            ORANGE_MAPLE_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_orange_maple_sapling",
+                    () -> flowerPot(NSWoods.MAPLE.getOrangeSapling(), colour)));
+
+            PALO_VERDE_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_palo_verde_sapling",
+                    () -> flowerPot(NSWoods.PALO_VERDE.getSapling(), colour)));
+
+            PINK_WISTERIA_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_pink_wisteria_sapling",
+                    () -> flowerPot(NSWoods.WISTERIA.getPinkSapling(), colour)));
+
+            PROTEA_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_protea",
+                    () -> flowerPot(NSMiscBlocks.PROTEA.getFlowerBlock(), colour)));
+
+            PURPLE_HEATHER_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_purple_heather",
+                    () -> flowerPot(NSMiscBlocks.PURPLE_HEATHER.getFlowerBlock(), colour)));
+
+            PURPLE_WILDFLOWER_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_purple_wildflower",
+                    () -> flowerPot(NSMiscBlocks.PURPLE_WILDFLOWER.getFlowerBlock(), colour)));
+
+            PURPLE_WISTERIA_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_purple_wisteria_sapling",
+                    () -> flowerPot(NSWoods.WISTERIA.getPurpleSapling(), colour)));
+
+            RED_HEATHER_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_red_heather",
+                    () -> flowerPot(NSMiscBlocks.RED_HEATHER.getFlowerBlock(), colour)));
+
+            RED_MAPLE_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_red_maple_sapling",
+                    () -> flowerPot(NSWoods.MAPLE.getRedSapling(), colour)));
+
+            REDWOOD_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_redwood_sapling",
+                    () -> flowerPot(NSWoods.REDWOOD.getSapling(), colour)));
+
+            RUBY_BLOSSOMS_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_ruby_blossoms",
+                    () -> flowerPot(NSMiscBlocks.RUBY_BLOSSOMS.getFlowerBlock(), colour)));
+
+            SAXAUL_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_saxaul_sapling",
+                    () -> flowerPot(NSWoods.SAXAUL.getSapling(), colour)));
+
+            SUGI_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_sugi_sapling",
+                    () -> flowerPot(NSWoods.SUGI.getSapling(), colour)));
+
+            TIGER_LILY_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_tiger_lily",
+                    () -> flowerPot(NSMiscBlocks.TIGER_LILY.getFlowerBlock(), colour)));
+
+            WHITE_HEATHER_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_white_heather",
+                    () -> flowerPot(NSMiscBlocks.WHITE_HEATHER.getFlowerBlock(), colour)));
+
+            WHITE_WISTERIA_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_white_wisteria_sapling",
+                    () -> flowerPot(NSWoods.WISTERIA.getWhiteSapling(), colour)));
+
+            WILLOW_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_willow_sapling",
+                    () -> flowerPot(NSWoods.WILLOW.getSapling(), colour)));
+
+            YELLOW_MAPLE_SAPLING_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_yellow_maple_sapling",
+                    () -> flowerPot(NSWoods.MAPLE.getYellowSapling(), colour)));
+
+            YELLOW_WILDFLOWER_FLOWER_POTS.put(colour, registerBlock(colour + "_potted_yellow_wildflower",
+                    () -> flowerPot(NSMiscBlocks.YELLOW_WILDFLOWER.getFlowerBlock(), colour)));
 
         }
     }
