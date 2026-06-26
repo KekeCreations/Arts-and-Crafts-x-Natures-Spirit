@@ -332,6 +332,152 @@ public class ACNSFabricBlocks {
         return SHIITAKE_MUSHROOM_FLOWER_POTS.get(color).get();
     }
 
+    //ROUND 2
+    public static Block getAnemoneFlowerPots(DyeColor color) {
+        return ANEMONE_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getAspenSaplingFlowerPots(DyeColor color) {
+        return ASPEN_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getBlackIrisFlowerPots(DyeColor color) {
+        return BLACK_IRIS_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getBlueIrisFlowerPots(DyeColor color) {
+        return BLUE_IRIS_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getBlueWisteriaSaplingFlowerPots(DyeColor color) {
+        return BLUE_WISTERIA_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getBluebellFlowerPots(DyeColor color) {
+        return BLUEBELL_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getCedarSaplingFlowerPots(DyeColor color) {
+        return CEDAR_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getCypressSaplingFlowerPots(DyeColor color) {
+        return CYPRESS_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getDwarfBlossomsFlowerPots(DyeColor color) {
+        return DWARF_BLOSSOMS_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getFirSaplingFlowerPots(DyeColor color) {
+        return FIR_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getGhafSaplingFlowerPots(DyeColor color) {
+        return GHAF_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getHibiscusFlowerPots(DyeColor color) {
+        return HIBISCUS_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getJoshuaSaplingFlowerPots(DyeColor color) {
+        return JOSHUA_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getLarchSaplingFlowerPots(DyeColor color) {
+        return LARCH_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getMahoganySaplingFlowerPots(DyeColor color) {
+        return MAHOGANY_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getMarigoldFlowerPots(DyeColor color) {
+        return MARIGOLD_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getOliveSaplingFlowerPots(DyeColor color) {
+        return OLIVE_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getOrangeMapleSaplingFlowerPots(DyeColor color) {
+        return ORANGE_MAPLE_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getPaloVerdeSaplingFlowerPots(DyeColor color) {
+        return PALO_VERDE_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getPinkWisteriaSaplingFlowerPots(DyeColor color) {
+        return PINK_WISTERIA_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getProteaFlowerPots(DyeColor color) {
+        return PROTEA_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getPurpleHeatherFlowerPots(DyeColor color) {
+        return PURPLE_HEATHER_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getPurpleWildflowerFlowerPots(DyeColor color) {
+        return PURPLE_WILDFLOWER_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getPurpleWisteriaSaplingFlowerPots(DyeColor color) {
+        return PURPLE_WISTERIA_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getRedHeatherFlowerPots(DyeColor color) {
+        return RED_HEATHER_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getRedMapleSaplingFlowerPots(DyeColor color) {
+        return RED_MAPLE_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getRedwoodSaplingFlowerPots(DyeColor color) {
+        return REDWOOD_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getRubyBlossomsFlowerPots(DyeColor color) {
+        return RUBY_BLOSSOMS_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getSaxaulSaplingFlowerPots(DyeColor color) {
+        return SAXAUL_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getSugiSaplingFlowerPots(DyeColor color) {
+        return SUGI_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getTigerLilyFlowerPots(DyeColor color) {
+        return TIGER_LILY_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getWhiteHeatherFlowerPots(DyeColor color) {
+        return WHITE_HEATHER_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getWhiteWisteriaSaplingFlowerPots(DyeColor color) {
+        return WHITE_WISTERIA_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getWillowSaplingFlowerPots(DyeColor color) {
+        return WILLOW_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getYellowMapleSaplingFlowerPots(DyeColor color) {
+        return YELLOW_MAPLE_SAPLING_FLOWER_POTS.get(color).get();
+    }
+
+    public static Block getYellowWildflowerFlowerPots(DyeColor color) {
+        return YELLOW_WILDFLOWER_FLOWER_POTS.get(color).get();
+    }
+
+
 
     public static void register() {
 

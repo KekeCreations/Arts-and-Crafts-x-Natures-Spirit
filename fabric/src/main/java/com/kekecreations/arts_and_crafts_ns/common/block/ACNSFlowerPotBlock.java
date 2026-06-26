@@ -7,6 +7,7 @@ import java.util.HashMap;
 
 import com.kekecreations.arts_and_crafts_ns.core.registry.ACNSFabricBlocks;
 import net.hibiscus.naturespirit.registration.NSMiscBlocks;
+import net.hibiscus.naturespirit.registration.NSWoods;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.InteractionResult;
@@ -135,6 +136,154 @@ public class ACNSFlowerPotBlock extends Block {
                     this.content = NSMiscBlocks.SHIITAKE_MUSHROOM;
                     break;
                 }
+
+                // ROUND 2
+
+                if (this == ACNSFabricBlocks.getAnemoneFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.ANEMONE.getFlowerBlock();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getAspenSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.ASPEN.getSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getBlackIrisFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.BLACK_IRIS.getFlowerBlock();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getBlueIrisFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.BLUE_IRIS.getFlowerBlock();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getBlueWisteriaSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.WISTERIA.getBlueSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getBluebellFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.BLUEBELL.getFlowerBlock();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getCedarSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.CEDAR.getSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getCypressSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.CYPRESS.getSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getDwarfBlossomsFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.DWARF_BLOSSOMS.getFlowerBlock();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getFirSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.FIR.getSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getGhafSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.GHAF.getSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getHibiscusFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.HIBISCUS.getFlowerBlock();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getJoshuaSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.JOSHUA.getSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getLarchSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.LARCH.getSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getMahoganySaplingFlowerPots(colour)) {
+                    this.content = NSWoods.MAHOGANY.getSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getMarigoldFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.MARIGOLD.getFlowerBlock();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getOliveSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.OLIVE.getSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getOrangeMapleSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.MAPLE.getOrangeSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getPaloVerdeSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.PALO_VERDE.getSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getPinkWisteriaSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.WISTERIA.getPinkSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getProteaFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.PROTEA.getFlowerBlock();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getPurpleHeatherFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.PURPLE_HEATHER.getFlowerBlock();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getPurpleWildflowerFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.PURPLE_WILDFLOWER.getFlowerBlock();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getPurpleWisteriaSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.WISTERIA.getPurpleSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getRedHeatherFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.RED_HEATHER.getFlowerBlock();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getRedMapleSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.MAPLE.getRedSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getRedwoodSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.REDWOOD.getSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getRubyBlossomsFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.RUBY_BLOSSOMS.getFlowerBlock();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getSaxaulSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.SAXAUL.getSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getSugiSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.SUGI.getSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getTigerLilyFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.TIGER_LILY.getFlowerBlock();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getWhiteHeatherFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.WHITE_HEATHER.getFlowerBlock();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getWhiteWisteriaSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.WISTERIA.getWhiteSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getWillowSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.WILLOW.getSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getYellowMapleSaplingFlowerPots(colour)) {
+                    this.content = NSWoods.MAPLE.getYellowSapling();
+                    break;
+                }
+                if (this == ACNSFabricBlocks.getYellowWildflowerFlowerPots(colour)) {
+                    this.content = NSMiscBlocks.YELLOW_WILDFLOWER.getFlowerBlock();
+                    break;
+                }
+
             }
         }
         if (this.isEmpty()) {
