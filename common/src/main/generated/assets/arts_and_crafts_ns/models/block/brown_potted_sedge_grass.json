@@ -1,5 +1,5 @@
 {
-  "parent": "arts_and_crafts_ns:block/large_cross_pot",
+  "parent": "natures_spirit:block/flower_pot_large_cross",
   "textures": {
     "flowerpot": "arts_and_crafts:block/brown_flower_pot",
     "particle": "arts_and_crafts:block/brown_flower_pot",

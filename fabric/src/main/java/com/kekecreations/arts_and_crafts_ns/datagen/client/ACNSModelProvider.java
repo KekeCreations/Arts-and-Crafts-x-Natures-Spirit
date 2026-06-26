@@ -80,6 +80,14 @@ public class ACNSModelProvider extends FabricModelProvider {
 
             this.createFlowerPot("natures_spirit",
                     ACNSFabricBlocks.getShiitakeMushroomFlowerPots(colour), "shiitake_mushroom", colour, generator);
+
+
+            //ROUND 2
+            this.createTallFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getAnemoneFlowerPots(colour), "anemone", colour, generator);
+
+            this.createFlowerPot("natures_spirit",
+                    ACNSFabricBlocks.getAspenSaplingFlowerPots(colour), "aspen_sapling", colour, generator);
         }
 
     }
@@ -105,6 +113,12 @@ public class ACNSModelProvider extends FabricModelProvider {
     public final void createLargeFlowerPot(String modID, Block flowerPot, String plant, DyeColor colour, BlockModelGenerators blockModelGenerators) {
         TextureMapping textureMapping = ACNSTextureMapping.flowerPotTextureMappings(modID, plant, colour);
         ResourceLocation resourceLocation = ACNSModelTemplate.LARGE_FLOWER_POT.create(flowerPot, textureMapping, blockModelGenerators.modelOutput);
+        blockModelGenerators.blockStateOutput.accept(BlockModelGenerators.createSimpleBlock(flowerPot, resourceLocation));
+    }
+
+    public final void createTallFlowerPot(String modID, Block flowerPot, String plant, DyeColor colour, BlockModelGenerators blockModelGenerators) {
+        TextureMapping textureMapping = ACNSTextureMapping.flowerPotTextureMappings(modID, plant, colour);
+        ResourceLocation resourceLocation = ACNSModelTemplate.TALL_FLOWER_POT.create(flowerPot, textureMapping, blockModelGenerators.modelOutput);
         blockModelGenerators.blockStateOutput.accept(BlockModelGenerators.createSimpleBlock(flowerPot, resourceLocation));
     }
 }

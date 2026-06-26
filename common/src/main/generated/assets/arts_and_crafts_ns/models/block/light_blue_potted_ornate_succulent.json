@@ -1,5 +1,5 @@
 {
-  "parent": "arts_and_crafts_ns:block/succulent_pot",
+  "parent": "natures_spirit:block/flower_pot_succulent",
   "textures": {
     "flowerpot": "arts_and_crafts:block/light_blue_flower_pot",
     "particle": "arts_and_crafts:block/light_blue_flower_pot",
