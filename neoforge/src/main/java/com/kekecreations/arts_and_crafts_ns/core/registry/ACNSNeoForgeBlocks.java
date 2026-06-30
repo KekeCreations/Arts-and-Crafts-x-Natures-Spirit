@@ -9,12 +9,16 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.PushReaction;
+import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.HashMap;
 import java.util.function.Supplier;
 
 public class ACNSNeoForgeBlocks {
+
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Constants.MOD_ID);
 
 
     public static final HashMap<DyeColor, Supplier<Block>> SCORCHED_GRASS_FLOWER_POTS = new HashMap<>();
@@ -249,8 +253,9 @@ public class ACNSNeoForgeBlocks {
         }
     }
 
-            private static <T extends Block> Supplier<T> registerBlock(String name, Supplier<T> blockSupplier) {
-        return JinxedRegistryHelper.registerBlock(Constants.MOD_ID, name, false, blockSupplier);
+
+    private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
+        return BLOCKS.register(name, block);
     }
 
     private static ACFlowerPotBlock flowerPot(Supplier<? extends Block> block, DyeColor dyeColor) {
@@ -481,7 +486,8 @@ public class ACNSNeoForgeBlocks {
     }
 
 
-    public static void register() {
+    public static void register(IEventBus bus) {
+        BLOCKS.register(bus);
 
     }
 }
