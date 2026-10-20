@@ -1,3 +1,9 @@
+V1.6.0
+- Supports V1.6.0 of Arts & Crafts and the latest version of Nature's Spirit
+- Renamed Calcite to Coastal Chalk
+
+
+
 V1.0.0
 - Renames Nature Spirit's Chalk Blocks to Calcite
 - Renames Nature Spirit's Chalk Powder to Calcite Powder

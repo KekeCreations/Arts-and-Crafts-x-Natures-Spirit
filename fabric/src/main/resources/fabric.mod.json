@@ -14,9 +14,6 @@
         "main": [
             "com.kekecreations.arts_and_crafts_ns.FabricArtsAndCraftsNS"
         ],
-        "fabric-datagen": [
-            "com.kekecreations.arts_and_crafts_ns.datagen.ACNSDataGenerator"
-        ],
         "client": [
             "com.kekecreations.arts_and_crafts_ns.FabricClientArtsAndCraftsNS"
         ]
@@ -30,7 +27,7 @@
         "fabric-api": "*",
         "minecraft": "${minecraft_version}",
         "java": ">=${java_version}",
-        "natures_spirit": ">1.0.0"
+        "natures_spirit": ">=2.2.6-1.21.1"
     },
     "suggests": {
         "another-mod": "*"
