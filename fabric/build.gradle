@@ -13,7 +13,7 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
 
-    modImplementation "curse.maven:artsandcrafts-1034791:8041066"
+    modImplementation "curse.maven:artsandcrafts-1034791:9268705"
     modImplementation "curse.maven:jinxedlib-1203401:6332453"
     modImplementation "curse.maven:natures-spirit-1044992:6962791"
     modImplementation "curse.maven:terrablender-fabric-565956:6054948"

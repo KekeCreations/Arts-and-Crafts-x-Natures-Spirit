@@ -22,7 +22,7 @@ dependencies {
     compileOnly group: 'io.github.llamalad7', name: 'mixinextras-common', version: '0.3.5'
     annotationProcessor group: 'io.github.llamalad7', name: 'mixinextras-common', version: '0.3.5'
 
-    compileOnly("curse.maven:artsandcrafts-1034791:8041062")
+    compileOnly "curse.maven:artsandcrafts-1034791:9268712"
     compileOnly "curse.maven:jinxedlib-1203401:6332450"
     compileOnly "curse.maven:natures-spirit-1044992:6962784"
     compileOnly "curse.maven:terrablender-neoforge-940057:6054947"
